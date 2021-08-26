@@ -1,0 +1,63 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+
+  background: linear-gradient( rgb(245, 206, 206), rgb(225, 225, 241));
+}
+.container{
+  /* font-size: 40px; */
+  margin: 6.5% 35%;
+  width: 30%;
+  height: 70vh;
+  /* border: 2px solid red; */
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.cards{
+  margin: 5px 1px ;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.ans{
+  background-color: rgb(253, 229, 229);
+  display: none;
+}
+.visible{
+  display: flex;
+}
+.show{
+  background: linear-gradient(rgb(203, 203, 211), rgb(235, 230, 248));
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.show button{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+}
+.show h3{
+  font-size: 25px;
+}
+.buttons{
+  width: px;
+}
