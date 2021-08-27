@@ -18,25 +18,33 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .centerdiv{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
+}
+.centerdiv h1{
+  margin: 5x 10px;
 }
 .content{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  
 }
 .cards{
-  margin: 5px 1px ;
+  margin: 5px 10px ;
+  border-radius: 5px;
+  overflow: hidden;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 .ans{
   background-color: rgb(253, 229, 229);
-  display: none;
+  /* display: none; */
 }
 .visible{
   display: flex;
@@ -47,7 +55,8 @@ html{
   /* justify-content: center; */
   align-items: center;
 }
-.show button{
+
+.show p{
   width: 24px;
   height: 24px;
   display: flex;
